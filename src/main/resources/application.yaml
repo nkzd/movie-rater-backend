@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /imdb
+dataset:
+  movie: movie.json
+  tv: tv.json
+spring:
+  elasticsearch:
+    rest:
+      uris:
+        - ${ELASTIC_HOST:localhost}:9200
