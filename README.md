@@ -1,6 +1,9 @@
 # Spring, React, Elasticsearch IMDB clone 
 
-Movie and TV rating web application made with Spring, React and Elasticsearch. 
+Movie and TV database web application made with Spring, React and Elasticsearch.
+
+Search a movie and tv releases by title, description or actor names. You can use natural language queries like "5 stars" or "before 2015".
+Includes a rating page where you can rate all releases in the database. 
 
 ![](header.png)
 

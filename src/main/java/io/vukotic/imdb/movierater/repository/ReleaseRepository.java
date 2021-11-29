@@ -19,9 +19,8 @@ public interface ReleaseRepository extends ElasticsearchRepository<Release, Stri
     Page<Release> findReleasesByTypeEqualsAndAverageRatingGreaterThanEqual(String type, Double averageRating, Pageable pageable);
 
     // _ stars
-//    Page<Release> findReleasesByTypeEqualsAndAverageRatingBetween(String type, Double averageRating, Double averageRating2, Pageable pageable);
-
     Page<Release> findReleasesByTypeEqualsAndAverageRatingGreaterThanEqualAndAverageRatingLessThanEqual(String type, Double averageRating, Double averageRating2, Pageable pageable);
+
     // after _
     Page<Release> findReleasesByTypeEqualsAndYearGreaterThanEqual(String type, Integer year, Pageable pageable);
 
